@@ -1,0 +1,17 @@
+{
+  "name": "serveur_mimi",
+  "version": "1.0.0",
+  "description": "serveur application pour mes chats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "daphnee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
