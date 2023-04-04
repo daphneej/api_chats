@@ -2,7 +2,9 @@ const express = require("express");
 
 const app = express();
 
-const chats = [
+const port = process.env.port || 3000
+
+chats = [
   {
     id: 1,
     name: "Read-me",
@@ -63,6 +65,6 @@ app.post("/chats", (req, res) => {
 });
 
 
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log("hello wold");
 });
